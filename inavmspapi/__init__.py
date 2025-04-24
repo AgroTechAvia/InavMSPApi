@@ -8,7 +8,7 @@ from threading import Lock
 
 #from msp_codes import *
 
-from .transmitter import Transmitter
+from .transmitter import Transmitter, TCPTransmitter, SerialTransmitter
 
 if "linux" in sys.platform:
     import ctypes
